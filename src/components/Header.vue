@@ -21,7 +21,7 @@ const links = [
       <a class="logo vue text-4xl font-normal" href="/">
         <img
           class="max-w-[16rem]"
-          src="http://143.244.133.88/_nuxt/img/kenroz-logo-dark.4566577.png"
+          src="../assets/logo.png"
         />
       </a>
     </div>
