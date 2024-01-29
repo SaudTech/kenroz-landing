@@ -1,5 +1,4 @@
 <script setup>
-import { SpeedInsights } from "@vercel/speed-insights/vue"
 import { inject } from '@vercel/analytics';
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
@@ -9,7 +8,6 @@ inject();
 </script>
 
 <template>
-  <SpeedInsights />
   <div class="flex flex-col min-h-screen overflow-hidden relative">
     <Header />
     <main class="flex-grow w-full">
